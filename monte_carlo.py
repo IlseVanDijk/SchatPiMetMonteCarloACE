@@ -30,7 +30,7 @@ def estimate_pi(n, seed):
     return float(4*(counter/n)) #Voor de uitleg over de 4 zie de README
 
 #Alle prints gebruikt voor de uitleg in de README
-#"""
+"""
 print("De volgende zijn tests op seed 42 van 4, 50 en 500000")
 print(estimate_pi(4, 42))
 print(estimate_pi(50, 42))
@@ -43,4 +43,4 @@ print("De volgende zijn tests van 5000 punten met seeds 1, 2 en 3")
 print(estimate_pi(5000, 1))
 print(estimate_pi(5000, 2))
 print(estimate_pi(5000, 3))
-#"""
+"""
